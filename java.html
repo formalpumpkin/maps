@@ -5,11 +5,11 @@
 
 div#banner{
 	background-blend-mode: ;
-	background-color: #91c71e;
+	background-color: #36057a;
 	margin-top: -60px;
 	margin-left: -8px;
 	margin-right: -8px;
-	box-shadow: -10px -10px 0px 10px #75a118 inset;
+	box-shadow: -5px -10px 0px 10px #23034f inset;
 
 
 
@@ -20,7 +20,7 @@ div#banner{
 }
 p{
 	font-size: 40px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
 	margin-left: 20px;
 	margin-right: 40px;
 	color: white;
@@ -35,8 +35,74 @@ p#title{
 }
 
 p#titlebig{
+	color: white;
 	font-size: 100px;
+	margin-right: 50%;
 
+}
+div#sun{
+	border-radius: 50%;
+	background-color: #f27900;
+	margin-top: 7px;
+	float: top;
+	height: 50px;
+	width: 50px;
+}
+div#sun1{
+	border-radius: 50%;
+	background-color: #f25100;
+	margin-top: 7px;
+	float: top;
+	height: 110px;
+	width: 110px;
+}
+div#sun2{
+	border-radius: 50%;
+	background-color: #d62000;
+	margin-top: 7px;
+	float: top;
+	height: 170px;
+	width: 170px;
+}
+div#sun3{
+	border-radius: 50%;
+	background-color: #d60060;
+	margin-top: 7px;
+	float: top;
+	height: 230px;
+	width: 230px;
+}
+div#sun4{
+	border-radius: 50%;
+	background-color: #a30075;
+	margin-top: 7px;
+	float: top;
+	height: 290px;
+	width: 290px;
+}
+div#sun5{
+	border-radius: 50%;
+	background-color: #79008f;
+	margin-top: 7px;
+	float: top;
+	height: 350px;
+	width: 350px;
+}
+div#sun6{
+	border-radius: 50%;
+	background-color: #4f057a;
+	height: 410px;
+	width: 410px;
+}
+div#suncrop{
+	float: right;
+	margin-right: 15px;
+	margin-top: -290px;
+	height: -350px;
+	width: 350px;
+	z-index: 100;
+	max-width: 210px;
+	overflow: hidden;
 }
 p#small{
 	font-size: 20px;
@@ -69,27 +135,27 @@ div#menu{
 }
 
 div#menupart{
-	background-color: #86b81c;
+	background-color: #5237ed;
 	float: left;
-	width: 33.33%;
+	width: 33.333%;
 	transition-duration: 0.2s;
 	border-bottom: solid;
 	border-width: 0%;
-	border-color: #75a118;
+	border-color: #5237ed;
 	border-width: 0px;
-	box-shadow: -1.3px -0.1px 0px 0px #86b81c inset;
+	box-shadow: -1.3px -0.1px 0px 0px #5237ed inset;
 	-webkit-clip-path: polygon(0% 0%, 97.5% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 100%);
 }
 
 div#menupart:hover{
 	margin-left: -1%;
-	width: 34.33%;
+	width: 34.333%;
 	transition-duration: 0.2s;
-	background-color: #86b81c;
-	box-shadow: -10px 0px 0px 0px #75a118 inset;
+	background-color: #5237ed;
+	box-shadow: -10px 0px 0px 0px #432ad1 inset;
 	border-bottom: solid;
 	border-bottom: solid;
-	border-color: #75a118;
+	border-color: #432ad1;
 	border-width: 10px;
 	margin-top: -10px;
 	position: relative;
@@ -98,13 +164,13 @@ div#menupart:hover{
 
 div#menupart:active{
 	margin-left: -1%;
-	width: 34.33%;
+	width: 34.333%;
 	transition-duration: 0.2s;
-	background-color: #719c16;
-	box-shadow: -10px 0px 0px 0px #628714 inset;
+	background-color: #5237ed;
+	box-shadow: -10px 0px 0px 0px #432ad1 inset;
 	border-bottom: solid;
 	border-bottom: solid;
-	border-color: #628714;
+	border-color: #432ad1;
 	border-width: 10px;
 	margin-top: -10px;
 	position: relative;
@@ -113,13 +179,14 @@ div#menupart:active{
 
 
 div#body{
-	background-color: #396987;
+	border-radius: 10px;
+	background-color: #321ea6;
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-top: 2%;
 	border-style: solid;
 	border-width: 0.05%;
-	border-color: #396987;
+	border-color: #321ea6;
 	grid-template-columns: 2 auto auto;
 	transition-duration: 0.3s;
 
@@ -140,22 +207,24 @@ img#yt{
 div#download{
 	transition: 0.3s;
 	width: 30%;
-	background-color: #91c71e;
+	background-color: #5237ed;
 	margin-top: 10%;
 	border: solid;
 	border-width: 10px;
-	border-color: #618710;
+	border-color: #432ad1;
 	margin-top: 12%;
+	box-shadow: 0px 0px 0px 0px #432ad1;
 
 
 }
 
 div#download:hover{
 	transition: 0.3s;
-	background-color: #91c71e;
-	border-color: #91c71e;
+	background-color: #5237ed;
+	border-color: #e01b50;
 	border-width: 10px;
 	width: 35%;
+	box-shadow: 0px 0px 0px 10px #b31b88;
 	
 }
 
@@ -165,14 +234,19 @@ a:link {
 }
 
 </style>
-<body style="background-color: #335a73;">
+<body style="background-color: #160030;">
 <div id="banner">
+	<br><br><br>
 <center>
-<br>
-<br>
-<br>
-<br>
-<p id="titlebig">Java Maps</p>
+	<div id="suncrop"><br>
+	<div id="sun6"><br>
+	<div id="sun5"><br>
+	<div id="sun4"><br>
+	<div id="sun3"><br>
+	<div id="sun2"><br>
+	<div id="sun1"><br>
+	<div id="sun"><br></div></div></div></div></div></div></div></div>
+<p id="titlebig">Formal's Maps</p>
 <br>
 <br>
 <br>
